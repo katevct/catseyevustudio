@@ -31,6 +31,7 @@ function Studio() {
       who doesn't have any background in logo design, Ed's kind words really 
       fueled my passion to keep doing my thing.
       </p>
+      
       <img id="letters" src={process.env.PUBLIC_URL + '/letters.jpg'} alt="letters sketch" />
       <img id="eye" src={process.env.PUBLIC_URL + '/eye.PNG'} alt="eye logo" />  
       <p id = "p5">
