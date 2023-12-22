@@ -31,9 +31,12 @@ function Mooo() {
         </p>
         </div>
         <img id="MoooWireFrame" src={process.env.PUBLIC_URL + '/MoooWireFrame.png'} alt="wireframe" />
+        
         <p id = "digi-lofi">Digital Wireframes</p>
+        <div className='digi'>
         <img id="Digi1" src={process.env.PUBLIC_URL + '/Digi1.png'} alt="Digi1" />
         <img id="Digi2" src={process.env.PUBLIC_URL + '/Digi2.png'} alt="Digi2" />
+        </div>
         <img id="LofiMooo" src={process.env.PUBLIC_URL + '/LofiMooo.png'} alt="Lofi" />
         <img id="usability" src={process.env.PUBLIC_URL + '/usability.png'} alt="usability" />
         <p id ="hifiIntro">Final UI</p>

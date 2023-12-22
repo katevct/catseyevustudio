@@ -122,3 +122,99 @@
        margin-bottom: 25%;
    }
 
+   @media (min-width: 1920px){
+      .Yogi{
+        margin-left: 50%;
+        margin-top: -1050px;
+      }
+
+      #Yogi-intro1{
+        margin-left: 680px;
+      }
+
+      #initial{
+        margin-left: -10%;
+        max-width: 500px;
+        margin-top: -400px;
+      }
+
+      #ip13Yogi{
+        width: 400px;
+        margin-left: 50%;
+      }
+
+      #hifi-details{
+        margin-top: -500px;
+        margin-left: 60%;
+      }
+   }
+
+   @media (max-width: 768px){
+      .Yogi{
+        text-align: center;
+        margin-left: 100px;
+        margin-top: -450px;
+      }
+
+
+      #Yogi-intro1{
+        font-size: 25px;
+        margin-top: -180px;
+        margin-left: 150px;
+      }
+
+      #YogiWire{
+        width: 410px;
+        margin-left: 10px;
+      }
+
+      #initial{
+        text-align: center;
+        margin-top: 20px;
+        max-width: 400px;
+        margin-left: -130px;
+      }
+
+      #attentive{
+        text-align: center;
+        font-size: 25px;
+        margin-left: 35px;
+        max-width: 350px;
+        margin-top: 30px;
+      }
+
+      #ip13Yogi{
+        width: 300px;
+        margin-left: 80px;
+      }
+
+      #cloud{
+        text-align: center;
+        margin-top: 5px;
+        max-width: 400px;
+        margin-left: 10px;
+      }
+
+      #Yogi-intro2{
+        font-size: 25px;
+        margin-top: 5px;
+        transform: translateX(-80px);
+        text-align: center;
+      }
+
+      #YogiHifi{
+        width: 410px;
+        margin-left: 10px;
+      }
+
+      #colors{
+        margin-left: 15px;
+      }
+
+      #hifi-details{
+        max-width: 600px;
+        margin-left: 10px;
+        margin-top: 5px;
+      }
+
+   }

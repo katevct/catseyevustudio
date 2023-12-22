@@ -200,7 +200,86 @@
   @media (max-width: 768px){
     .Mooo {
       height: 100px;
-      width: 300px;
+      width: 350px;
       text-align: center;
+      margin-left: 10%;
+      margin-top: -250px;
+    }
+
+    .persona{
+      margin-top: 350px;
+    }
+
+    #Mary{
+      width: 90%;
+      margin-left: 10px;
+    }
+
+    #wire-intro{
+      text-align: center;
+      margin-left: -50px;
+      font-size: 25px;
+      margin-top: -50px;
+    }
+
+    #wire-intro1{
+      transform: translateX(-20px);
+      max-width: 350px;
+      text-align: center;
+      margin-top: 90px;
+    }
+
+    #MoooWireFrame{
+      width: 90%;
+      margin-top: -20px;
+      margin-left: 10px;
+    }
+
+    #digi-lofi{
+      text-align: center;
+      margin-left: -50px;
+      font-size: 25px;
+    }
+    
+    #Digi1, #Digi2{
+      width: 340px;
+    }
+    #Digi2{
+      transform: translateY(250px);
+      margin-left: -385px;
+    }
+   
+    #LofiMooo{
+      width: 420px;
+      margin-top: 300px;
+      margin-left: -10px;
+    }
+
+    #usability{
+      width: 420px;
+      transform: translateY(210px);
+      margin-left: -420px;
+    }
+
+    #hifiIntro{
+      margin-left: 150px;
+      margin-top: 220px;
+    }
+
+    #HifiMooo{
+      width: 450px;
+      margin-left: -10px;
+    }
+
+    #final{
+      text-align: center;
+      margin-left: 10px;
+      margin-top: 20px;
+      max-width: 400px;
+    }
+
+    #MFigma{
+      text-align: center;
+      margin-left: -40px;
     }
   }

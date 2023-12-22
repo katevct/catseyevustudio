@@ -27,7 +27,7 @@ function Yogi() {
         page where individuals can customize their personal Yoga journey and diary, including 
         features like music playlists and posts.</p>
         <div className='cloud'>
-          <div id = "attentive">Attentive to every Customer's Mindset. </div>
+          <div id = "attentive">Attentive to Every Customer's Mindset. </div>
           <img id="ip13Yogi" src={process.env.PUBLIC_URL + '/ip13Yogi.png'} alt="ip13Yogi" />
         <p id = "cloud">The design features an 'affirmation cloud' that generates different affirmation quotes 
           daily. These quotes are displayed on the main page whenever users open the Yogi app. The intention 
