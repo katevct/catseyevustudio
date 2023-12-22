@@ -122,12 +122,7 @@
     margin-top: -0.5%;
     margin-left: 5%;
    }
- 
-  body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-  }
+
 
   @media (min-width: 1920px) {
     .Mooo{
@@ -208,10 +203,11 @@
 
     .persona{
       margin-top: 350px;
+      margin-left: -10px;
     }
 
     #Mary{
-      width: 90%;
+      width: 85%;
       margin-left: 10px;
     }
 
@@ -230,7 +226,7 @@
     }
 
     #MoooWireFrame{
-      width: 90%;
+      width: 85%;
       margin-top: -20px;
       margin-left: 10px;
     }
@@ -250,15 +246,15 @@
     }
    
     #LofiMooo{
-      width: 420px;
+      width: 85%;
       margin-top: 300px;
-      margin-left: -10px;
+      margin-left: 10px;
     }
 
     #usability{
-      width: 420px;
+      width: 85%;
       transform: translateY(210px);
-      margin-left: -420px;
+      margin-left: -400px;
     }
 
     #hifiIntro{
@@ -267,8 +263,8 @@
     }
 
     #HifiMooo{
-      width: 450px;
-      margin-left: -10px;
+      width: 400px;
+      margin-left: 10px;
     }
 
     #final{
