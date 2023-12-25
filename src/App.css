@@ -1,0 +1,317 @@
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.fixed-header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.content {
+  margin-top: 0px; /* Adjust the margin based on your header's height */
+}
+
+/* Modify the existing styles for the header */
+header {
+  background-color:rgb(255, 255, 255);
+  top: 5px;
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* Add styles for the navigation links */
+.header-content {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#menu-toggle {
+  font-size: 25px;
+  cursor: pointer;
+  display: none;
+}
+
+.header-content div {
+  margin: 0 15px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 15px;
+  color: #774b4b; /* Set the default color */
+  transition: color 0.3s; /* Add a smooth transition effect */
+  padding: 5px;
+}
+
+.hover-effect:hover {
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 51%, #ffffff 100%);
+  /* Adjust other styles as needed */
+}
+
+.header-content .home-link {
+  text-decoration: none; /* Remove underline for the Home link */
+}
+
+.header-content div:hover {
+  color: #aaaaaa; 
+}
+
+.home-button {
+  cursor: pointer;
+}
+
+#logo{
+  max-width: 150px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+#portfolio{
+  color: #907171;
+  text-align: right;
+  font-size: 40px;
+  font-weight: bold;
+  left: 25%;
+  max-width: 300px; 
+  position: absolute;
+  animation: fadeInRightToLeft 1.5s ease-out forwards;
+  white-space: pre-line;
+  margin-top: -500px;
+  margin-right:600px;
+}
+
+#kate {
+  position: absolute;
+  top: 100px;
+  right: 23%;
+  height: 500px;
+  overflow: hidden;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  animation: fadeInRightToLeft 1.5s ease-out forwards;
+}
+
+.intro{
+  box-sizing: border-box;
+}
+
+@keyframes fadeInRightToLeft {
+  from {
+      opacity: 0;
+      transform: translateX(20px); /* Start slightly to the right for the fade-in effect */
+  }
+  to {
+      opacity: 1;
+      transform: translateX(0); /* Fade in and move to the original position */
+  }
+}
+
+
+.section-container{
+  background-image: linear-gradient(to right, #c8a2a2 0%, #eed8d8  51%, #d7c1c1  100%);
+  padding: 20px;
+  margin: 600px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 400px;
+}
+
+.section-heading {
+  font-size: 40px;
+  right: 50%;
+  color: #907171;;
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  left: 45%; 
+  white-space: nowrap;
+  opacity: 0;
+  animation: fadeIn 1.5s ease-out forwards;
+}
+
+.section-content {
+  font-size: 25px;
+  text-align: center;
+  color: #907171;
+  line-height: 1.5;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1200px; 
+  opacity: 0;
+  animation: fadeIn 1.5s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+.color-block:hover {
+  filter: brightness(0.7); /* Adjust brightness to your liking */
+  transition: filter 0.3s ease; /* Add smooth transition effect */
+}
+
+.ToggleButton {
+  position: absolute;
+  transform: translateY(-530px);
+  right: 60px;
+  padding: 10px;
+  background-color: rgb(127, 159, 180); /* Set your desired background color */
+  color: #fff; /* Set your desired text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.ToggleButton:hover {
+  background-color: rgb(141, 138, 132); /* Set your desired background color on hover */
+}
+
+#generator {
+  max-width: 450px;
+  text-align: right;
+  transform: translateY(-525px);
+  margin-left: 65%;
+  font-style: oblique;
+}
+
+.color-block-description {
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  color: #473b3b; 
+  /* font-weight: bold; */
+}
+
+
+@media (min-width: 1920px) {
+  #kate{
+    right: 28%
+  }
+
+  #portfolio{
+    font-size: 45px;
+    max-width: 400px;
+  }
+  #generator{
+    transform: translateX(150px) translateY(-525px);
+  }
+
+  .section-heading {
+    font-size: 45px;
+    right: 55%;
+    left: 45%; 
+  }
+
+  .section-content{
+    right: 58%;
+  }
+
+  .header-content div {
+    font-size: 20px;
+  }
+
+  #logo{
+    max-width: 180px;
+    margin-left: 5px;
+  }
+
+
+.ColorBlock{
+  margin-left: 11%;
+}
+
+}
+
+@media (max-width: 768px){
+  .box{
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 30% 30% 10%;
+  }
+
+  #portfolio{
+  font-size: 25px;
+    text-align: center;
+    max-width: 50%; 
+    margin: -250px auto 0; 
+  }
+
+  #kate{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    overflow: hidden;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    animation: fadeInRightToLeft 1.5s ease-out forwards;
+  }
+
+  .section-heading {
+    margin-left: auto;
+    margin-right: auto;
+    right: 35%;
+    font-size: 30px;
+  }
+
+  .ColorBlock {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 10px;
+  }
+
+  .color-block {
+    width: 100%;
+    max-width: none;
+    margin-bottom: 25px;
+  }
+
+  .color-block-description {
+    font-size: 14px; 
+    text-align: center; 
+    margin-top: 10px; 
+  }
+
+  .ToggleButton {
+    margin-left: auto;
+    margin-right: -50px; /* Adjust the right margin as needed */
+  }
+  #generator{
+    padding-right: 10px;
+    margin-top: -10%;
+    max-width: 700px;
+    font-size: 13px;
+    line-height: 1; 
+  }
+
+  .section-content{
+    font-size: 15px;
+    margin-top: 65px;
+  }
+
+  .section-container{
+    height: 420px;
+  }
+
+  .section-heading{
+    margin-right: 30%;
+  }
+
+  
+
+}
