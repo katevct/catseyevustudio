@@ -185,6 +185,7 @@ styleSheet.insertRule(styles, styleSheet.cssRules.length);
             src={process.env.PUBLIC_URL + '/kate.png'}
             alt="Kate's portrait"
           />
+
         </div>
 
         <Element name="about" className="section-container about" id="about">
