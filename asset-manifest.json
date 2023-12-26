@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/catseyevustudio/main/static/css/main.1e336d6c.css",
+    "main.js": "/catseyevustudio/main/static/js/main.d9e263bf.js",
+    "static/js/787.fb799e6c.chunk.js": "/catseyevustudio/main/static/js/787.fb799e6c.chunk.js",
+    "index.html": "/catseyevustudio/main/index.html",
+    "main.1e336d6c.css.map": "/catseyevustudio/main/static/css/main.1e336d6c.css.map",
+    "main.d9e263bf.js.map": "/catseyevustudio/main/static/js/main.d9e263bf.js.map",
+    "787.fb799e6c.chunk.js.map": "/catseyevustudio/main/static/js/787.fb799e6c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e336d6c.css",
+    "static/js/main.d9e263bf.js"
+  ]
+}
