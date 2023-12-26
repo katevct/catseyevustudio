@@ -24,7 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://github.com/katevct/catseyevustudio/tree/gh-pages",
+  "homepage": "https://katevct.github.io/catseyevustudio/gh-pages",
   "eslintConfig": {
     "extends": [
       "react-app",
