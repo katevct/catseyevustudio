@@ -14,10 +14,9 @@ body{
 }
 
 .content {
-  margin-top: 0px; /* Adjust the margin based on your header's height */
+  margin-top: 0px; 
 }
 
-/* Modify the existing styles for the header */
 header {
   background-color:rgb(255, 255, 255);
   top: 5px;
@@ -29,7 +28,7 @@ header {
 html {
   scroll-behavior: smooth;
 }
-/* Add styles for the navigation links */
+
 .header-content {
   display: flex;
   justify-content: flex-end;
@@ -48,18 +47,17 @@ html {
   cursor: pointer;
   margin-left: 10px;
   font-size: 15px;
-  color: #774b4b; /* Set the default color */
-  transition: color 0.3s; /* Add a smooth transition effect */
+  color: #774b4b; 
+  transition: color 0.3s; 
   padding: 5px;
 }
 
 .hover-effect:hover {
   background: linear-gradient(to right, #ffffff 0%, #ffffff 51%, #ffffff 100%);
-  /* Adjust other styles as needed */
 }
 
 .header-content .home-link {
-  text-decoration: none; /* Remove underline for the Home link */
+  text-decoration: none; 
 }
 
 .header-content div:hover {
@@ -108,11 +106,11 @@ html {
 @keyframes fadeInRightToLeft {
   from {
       opacity: 0;
-      transform: translateX(20px); /* Start slightly to the right for the fade-in effect */
+      transform: translateX(20px); 
   }
   to {
       opacity: 1;
-      transform: translateX(0); /* Fade in and move to the original position */
+      transform: translateX(0);
   }
 }
 
@@ -161,8 +159,8 @@ html {
 }
 
 .color-block:hover {
-  filter: brightness(0.7); /* Adjust brightness to your liking */
-  transition: filter 0.3s ease; /* Add smooth transition effect */
+  filter: brightness(0.7);
+  transition: filter 0.3s ease; 
 }
 
 .ToggleButton {
@@ -170,8 +168,8 @@ html {
   transform: translateY(-530px);
   right: 60px;
   padding: 10px;
-  background-color: rgb(127, 159, 180); /* Set your desired background color */
-  color: #fff; /* Set your desired text color */
+  background-color: rgb(127, 159, 180); 
+  color: #fff; 
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -179,7 +177,7 @@ html {
 }
 
 .ToggleButton:hover {
-  background-color: rgb(141, 138, 132); /* Set your desired background color on hover */
+  background-color: rgb(141, 138, 132); 
 }
 
 #generator {
@@ -195,7 +193,6 @@ html {
   left: 50%;
   text-align: center;
   color: #473b3b; 
-  /* font-weight: bold; */
 }
 
 
@@ -289,7 +286,7 @@ html {
 
   .ToggleButton {
     margin-left: auto;
-    margin-right: -50px; /* Adjust the right margin as needed */
+    margin-right: -50px;
   }
   #generator{
     padding-right: 10px;

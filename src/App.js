@@ -27,10 +27,8 @@ function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      // Get the header element
       const header = document.getElementById('app-header');
 
-      // Add or remove the 'fixed-header' class based on the scroll position
       if (window.pageYOffset > 80) {
         header.classList.add('fixed-header');
       } else {
@@ -38,10 +36,8 @@ function App() {
       }
     };
 
-     // Attach the scroll event listener
      window.addEventListener('scroll', handleScroll);
 
-     // Clean up the event listener on component unmount
      return () => {
        window.removeEventListener('scroll', handleScroll);
      };
@@ -56,7 +52,7 @@ function App() {
   };
 
   const colorBoxAnimation = {
-  animation: 'fade-in 2s ease-out', // Customize the animation duration and timing function
+  animation: 'fade-in 2s ease-out', 
   };
   
   const colorBlockStyleMooo = {
@@ -122,7 +118,6 @@ function App() {
   }
 `;
 
-// Apply the styles to the document head
 const styleSheet = document.styleSheets[0];
 styleSheet.insertRule(styles, styleSheet.cssRules.length);
 
@@ -135,7 +130,6 @@ styleSheet.insertRule(styles, styleSheet.cssRules.length);
       </Helmet>
         <header id = "app-header">
         <img id="logo" src={process.env.PUBLIC_URL + '/cateye.PNG'} alt="Cat's Eye Vu Studio Logo" />
-          {/* <label id="dev">Cat's Eye Vu Studio</label> */}
           <div className="header-content">
           <Router>
            <Link to="/Login" className='home-link'>
@@ -145,7 +139,7 @@ styleSheet.insertRule(styles, styleSheet.cssRules.length);
             <ScrollLink to="about"
             spy={true}
             smooth={true}
-            offset={-70} // Adjust the offset based on your fixed header's height
+            offset={-70} 
             duration={500}
             className='about'
           >
@@ -158,7 +152,7 @@ styleSheet.insertRule(styles, styleSheet.cssRules.length);
           to="contact-footer"
           spy={true}
           smooth={true}
-          offset={-70} // Adjust the offset based on your fixed header's height
+          offset={-70} 
           duration={500}
           className='contact'
         >

@@ -17,11 +17,11 @@
   @keyframes fadeInRightToLeft {
     from {
         opacity: 0;
-        transform: translateX(20px); /* Start slightly to the right for the fade-in effect */
+        transform: translateX(20px); 
     }
     to {
         opacity: 1;
-        transform: translateX(0); /* Fade in and move to the original position */
+        transform: translateX(0);
     }
   }
 

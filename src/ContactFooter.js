@@ -1,5 +1,5 @@
 import React from 'react';
-import './ContactFooter.css'; // Import the CSS file for styling
+import './ContactFooter.css'; 
 
 const ContactFooter = () => {
   const email = 'kate.vct@outlook.com';
